@@ -468,10 +468,51 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.text-left {
-  text-align: left;
+.flex {
+  display: flex;
 }
 
-.text-center {
-  text-align: center;
+.hidden {
+  display: none;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.bg-indigo-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(165 180 252 / var(--tw-bg-opacity));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('./images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started {
+  border: 2px solid rgb(129 140 248);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
 }
