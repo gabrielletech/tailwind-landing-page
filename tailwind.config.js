@@ -18,6 +18,10 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
+    fontFamily: {
+      display: ['Inter', 'system-ui', 'sans-serif'],
+      body: ['Inter', 'system-ui', 'sans-serif'],
+    },
     extend: {
       backgroundImage: {
         'hero': "url('./src/images/hero.jpg')",

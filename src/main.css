@@ -14,3 +14,21 @@
     padding: 8px;
     border-radius: 10px;
 }
+
+.hero-text {
+    margin: 1em;
+    position: absolute;
+    top: 50%;
+}
+
+@media (min-width: 640px) {
+   
+    .hero-text {
+        margin: 2em;
+}
+ }
+
+@media (min-width: 768px) {  }
+@media (min-width: 1024px) {  }
+@media (min-width: 1280px) { }
+@media (min-width: 1536px) {  }
