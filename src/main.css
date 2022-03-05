@@ -7,6 +7,7 @@
     background-image: url('./images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .get-started {
@@ -19,6 +20,12 @@
     margin: 1em;
     position: absolute;
     top: 50%;
+}
+
+.hero-para {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
 }
 
 @media (min-width: 640px) {
