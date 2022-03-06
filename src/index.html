@@ -1,235 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Femme4U</title>
-    <link rel="stylesheet" href="../dist/main.css">
-    <link rel="stylesheet" href="./main.css">
+    <title>Tailwind</title>
 </head>
 <body>
-    
-    <!-- hero -->
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="relative bg-white overflow-hidden">
-        <div class="max-w-7xl mx-auto">
-            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
-                    fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-                    <polygon points="50,0 100,0 50,100 0,100" />
-                </svg>
-    
-                <div>
-                    <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-                        
-                    </div>
-    
-                    <!--
-              Mobile menu, show/hide based on menu open state.
-    
-              Entering: "duration-150 ease-out"
-                From: "opacity-0 scale-95"
-                To: "opacity-100 scale-100"
-              Leaving: "duration-100 ease-in"
-                From: "opacity-100 scale-100"
-                To: "opacity-0 scale-95"
-            -->
-                    <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-                        <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                            <div class="px-5 pt-4 flex items-center justify-between">
-                                <div>
-                                    
-                                </div>
-                                <div class="-mr-2">
-                                    
-                                </div>
-                            </div>
-                            <div class="px-2 pt-2 pb-3 space-y-1">
-                                <a href="#"
-                                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
-    
-                                <a href="#"
-                                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
-    
-                                <a href="#"
-                                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
-    
-                                <a href="#"
-                                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
-                            </div>
-                            <a href="#"
-                                class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-                                Log in </a>
-                        </div>
-                    </div>
-                </div>
-    
-                <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                    <div class="sm:text-center lg:text-left">
-                        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                            <span class="block xl:inline">Modern Menopause Treatment</span>
-                            <span class="block text-indigo-600 xl:inline">for every Woman</span>
-                        </h1>
-                        <p class="">A telehealth clinic and community celebrating and supporting you through menopause</p>
-                        <ul class="mt-4">
-                            <li class="flex">
-                                <img class="w-4 h-4 mt-1" src="./images/7787529_gender_female_woman_avatar_icon.svg" alt="woman-sign" />
-                                New effective treatments
-                            </li>
-                            <li class="flex">
-                                <img class="w-4 h-4 mt-1" src="./images/7787529_gender_female_woman_avatar_icon.svg" alt="woman-sign" />
-                                Ongoing care from specialist GPs
-                            </li>
-                            <li class="flex">
-                                <img class="w-4 h-4 mt-1" src="./images/7787529_gender_female_woman_avatar_icon.svg" alt="woman-sign" />
-                                Free delivery nationwide
-                            </li>
-                        </ul>
-                        
-                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                            <div class="mt-3 sm:mt-0 sm:ml-3">
-                                <a href="#"
-                                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                                    Start Online Visit </a>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-            </div>
+   
+    <!-- Product Items -->
+    <div class="m-20">
+        <div class="flex flex-row justify-between">
+            <h2 class="text-3xl">Our Collection</h2>
+            <a href="#" class="text-xl">View All</a>
         </div>
-        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img class="h-56 w-full object-cover object-center sm:h-72 md:h-96 lg:w-full lg:h-full"
-                src="./images/hero.jpg"
-                alt="">
+        <div class="grid grid-flow-row grid-cols-4 gap-10">
+            <div class="shadow-lg">
+                <img src="./images/shade-1.jpg" class="w-40 h-40" />
+            </div>
+            <div class="shadow-lg">
+                <img src="./images/shade-1.jpg" class="" />
+            </div>
+            <div class="shadow-lg">
+                <img src="./images/shade-1.jpg" class="" />
+            </div>
+            <div class="shadow-lg">
+                <img src="./images/shade-1.jpg" class="" />
+            </div>
         </div>
     </div>
+    
 
-    <!-- Symtoms -->
-    <section>
-        <h3 class="text-4xl mt-4 text-center"> No Two Women Experience Menopause the Same</h3>
-        <div class="symtoms">
-            <div class="list">
-                <ul>
-                    <li>Hot Flushes</li>
-                    <li>Night Sweats</li>
-                    <li>Mood Changes</li>
-                    <li>Vaginal Symptoms</li>
-                </ul>
-            </div>
-            <div class="info">
-                <p>Characterised by intense heat in the face, chest and body - partnered with sweating,
-                    chills, skin redness, heart flutters, and a feeling of anxiety
-                </p>
-                <p>Hot flushes are one of the most common menopausal symptoms, experienced by 85% of women.</p>
-                <p>Connect with a Juniper doctor to take control of hot flushes today.</p>
-                <button class="get-started"> Start Online Visit</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- How it works -->
-    <section>
-        <div class="how-it-works">
-            <h3>How it works</h3>
-            <p>Juniper’s team of accredited Australian doctors take your symptoms and treatment preferences into account to develop a
-            unique care plan that’s just for you.</p>
-        </div>
-        <div class="container">
-            |<div class="info-box">
-                <h4>Online visit with an accredited doctor</h4>
-                <p>
-                    Take the menopause quiz and chat one-on-one with a specialist GP about your symptoms, health history, and the treatments
-                    available to you.
-                </p>
-            </div>
-            <div class="info-box">
-                <h4>Get the latest treatments delivered to your door</h4>
-                <p>
-                    Take the menopause quiz and chat one-on-one with a specialist GP about your symptoms, health history, and the
-                    treatments
-                    available to you.
-                </p>
-            </div>
-            <div class="info-box">
-                <h4>Online visit with an accredited doctor</h4>
-                <p>
-                    Start your custom treatment plan from the comfort of your own home.
-                </p>
-            </div>
-            <div class="info-box">
-                <h4>Receive ongoing care with free follow-ups and community support</h4>
-                <p>
-                    Specialist GPs are here for you when you need it, to check in on your progress and adjust your plan as menopause
-                    evolves.
-                </p>
-            </div>
-        </div>
-        <button class="get-started"> Start Online Visit</button>
-    </section>
-
-    <!-- Reviews -->
-    <section>
-        <div class="reviews-head">
-            <h3>What We've Heard</h3>
-        </div>
-        <div class="reviews-carousel">
-            
-        </div>
-    </section>
-
-    <!-- Join -->
-    <section>
-        <div>
-            <h3>We're Building a Community</h3>
-            <span>Join</span>
-        </div>
-        <div class="subscription-form">
-            <p>Connect with like-minded women plus a team of specialist GPs who are here to listen and support you throughout your
-            journey.</p>
-            <form>
-                <input 
-                        type="email"
-                        class="email-input"
-                        name="email"
-                />
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        
-    </footer>
 </body>
 </html>
-
-<!--<div class="hero-para p-3 mt-3">
-    <p class="text-white">A telehealth clinic and community celebrating and supporting you through menopause</p>
-    <ul class="mt-4">
-        <li class="text-white flex">
-            <img class="w-4 h-4 mt-1" src="./images/7787529_gender_female_woman_avatar_icon.svg" alt="woman-sign" />
-            New effective treatments
-        </li>
-        <li class="text-white flex">
-            <img class="w-4 h-4 mt-1" src="./images/7787529_gender_female_woman_avatar_icon.svg" alt="woman-sign" />
-            Ongoing care from specialist GPs
-        </li>
-        <li class="text-white flex">
-            <img class="w-4 h-4 mt-1" src="./images/7787529_gender_female_woman_avatar_icon.svg" alt="woman-sign" />
-            Free delivery nationwide
-        </li>
-    </ul>
-    <button class="get-started mt-4 text-white hover:bg-indigo-300">Start Online Visit</button>
-</div>
-
-<section>
-    <div class="hero bg-scroll"></div>
-
-    <div class="hero-text">
-        <h1 class="text-white text-5xl text-center font-bold">Modern Menopause Treatment for every Woman</h1>
-    </div>
-    </div>
-</section>
--->
